@@ -1,0 +1,526 @@
+.sofiaLight,
+.sofiaMedium,
+.sofiaRegular {
+    font-style: normal;
+    font-family: sofia-pro, sans-serif
+}
+
+#asknewpincont,
+#showerror,
+.sofiaBold,
+.sofiaLight,
+.sofiaMedium,
+.sofiaRegular {
+    font-family: sofia-pro, sans-serif
+}
+
+#pincodediv,
+.about-service,
+.btn-1,
+.phoneinputs {
+    margin: 2rem 0
+}
+
+:root {
+    --bg-color: #14244D;
+    --txt: #fff
+}
+
+html {
+    font-size: 62.5%
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    background: var(--bg-color)
+}
+
+p {
+    margin-bottom: 0
+}
+
+.sofiaLight {
+    font-weight: 200
+}
+
+.sofiaRegular {
+    font-weight: 400
+}
+
+.sofiaMedium {
+    font-weight: 500
+}
+
+.sofiaBold {
+    font-weight: 700;
+    font-style: bold
+}
+
+.ralewayBold,
+.ralewayRegular,
+.ralewayThin {
+    font-family: raleway, sans-serif
+}
+
+.ralewayThin {
+    font-weight: 100;
+    font-style: normal
+}
+
+#asknewpincont,
+.ralewayRegular {
+    font-weight: 400;
+    font-style: normal
+}
+
+.ralewayBold {
+    font-weight: 700;
+    font-style: normal
+}
+
+.ma-nav {
+    background-color: #fff;
+    min-height: 5rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center
+}
+
+#OTPdiv,
+.phoneinputs {
+    display: flex;
+    flex-direction: row
+}
+
+.navbar-logo,
+.service-logo {
+    background-image: url('images/brand.webp');
+    width: 4rem;
+    height: 4rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+#btn-1,
+#cbutton,
+#verifybtn,
+.btn-1 {
+    color: var(--bg-color);
+    background: var(--txt);
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer
+}
+
+.ma-nav .service-name {
+    font-size: 2.4rem;
+    color: var(--bg-color);
+    padding-inline-start: 2rem
+}
+
+#head1 img,
+#otpinput label {
+    display: none
+}
+
+#displaynewphoto {
+    overflow: hidden;
+    background: url('images/hero-img.webp') center/cover no-repeat;
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%
+}
+
+#asknewpincont {
+    color: var(--txt);
+    font-size: 1.4rem
+}
+
+#btn-1,
+#cbutton,
+#verifybtn,
+.btn-1 {
+    font-weight: 700;
+    font-family: raleway, sans-serif
+}
+
+#showerror {
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: normal
+}
+
+#asknewpin {
+    cursor: pointer;
+    font-size: 2rem
+}
+
+#btn-1,
+#cbutton,
+.btn-1 {
+    padding: .75rem 1.25rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+    font-style: normal;
+    border: none
+}
+
+#cbutton {
+    background: var(--bg-color);
+    color: var(--txt);
+    padding: .75rem 1.25rem;
+    font-size: 1.8rem;
+    line-height: 1.6
+}
+
+#countrycode,
+#phone,
+#verifybtn {
+    font-size: 2rem;
+    border-radius: .5rem;
+    padding: .75rem 1.25rem
+}
+
+#verifybtn {
+    font-style: normal
+}
+
+#countrycode,
+#phone {
+    font-family: sofia-pro, sans-serif;
+    font-style: normal
+}
+
+#footer .service-header,
+#otpinput {
+    display: flex
+}
+
+#countrycode,
+#phone {
+    margin-inline-end: 1rem;
+    border: none !important;
+    background-color: var(--txt) !important;
+    color: var(--bg-color) !important;
+    font-weight: 200;
+    height: unset !important
+}
+
+.ar #countrycode,
+.ar #phone {
+    margin-right: 0;
+    margin-left: 1rem
+}
+
+#countrycode {
+    width: 20%;
+    text-align: center;
+    font-weight: 700
+}
+
+#phone {
+    width: 80%
+}
+
+#otpbutton {
+    align-self: center;
+    margin: auto
+}
+
+#otpcontent,
+.contact-msg {
+    margin: 1rem 0
+}
+
+#head1,
+#head2 {
+    color: var(--txt);
+    padding: 0 0 2rem
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column
+}
+
+#head1 h3,
+#head1 h4,
+#head1 p {
+    text-align: start !important;
+    font-size: 3rem !important;
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    font-style: normal
+}
+
+#head2 p {
+    font-size: 1.6rem !important;
+    text-align: left !important
+}
+
+.service-title {
+    font-size: 3rem;
+    color: var(--txt)
+}
+
+#brand,
+.service-desc {
+    font-size: 2rem;
+    color: var(--txt)
+}
+
+#otpcontent,
+#otpcontent>* {
+    color: var(--txt) !important
+}
+
+#otpcontent {
+    font-size: 2rem
+}
+
+#otpcontent>* {
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: unset !important
+}
+
+#operator-message {
+    background-color: rgba(108, 108, 108, .5);
+    border-radius: 1rem;
+    margin: 6rem 0;
+    padding: 3rem
+}
+
+#mideldisc {
+    font-size: 1.8rem;
+    color: var(--txt)
+}
+
+#footer {
+    background-color: #fff
+}
+
+#footer .service-name {
+    font-size: 3rem;
+    color: var(--bg-color)
+}
+
+#footer .direct-link,
+#footer .service-desc,
+.contact-msg {
+    font-size: 2rem;
+    color: var(--bg-color)
+}
+
+#footer .direct-link {
+    cursor: pointer;
+    display: block;
+    padding: .5rem 0
+}
+
+#footer .service-logo {
+    max-width: 4.2rem;
+    max-height: 4.2rem;
+    border-radius: .5rem;
+    padding-right: 1rem;
+    object-fit: contain;
+    margin-inline-end: 1rem
+}
+
+.ar #footer .service-logo {
+    padding-right: 0;
+    padding-left: 1rem
+}
+
+.form-control {
+    font-size: 1.8rem;
+    border-color: var(--bg-color);
+    border-radius: .3rem;
+    padding: .75rem 1.25rem;
+    height: unset !important;
+    margin-inline-end: 1rem
+}
+
+.dropdown-item,
+.dropdown-toggle {
+    background-color: var(--txt);
+    color: var(--bg-color);
+    font-size: 1.6rem
+}
+
+.rtl {
+    direction: rtl
+}
+
+#head1 .ar,
+.ar {
+    text-align: right !important
+}
+
+.modal-dialog .card {
+    max-width: 32rem;
+    box-shadow: 0 0 10px rgba(119, 136, 153, .2);
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    flex-direction: row
+}
+
+.modal-dialog .card-img-top {
+    width: 9.6rem;
+    height: 9.6rem;
+    border-radius: .7rem;
+    margin: auto
+}
+
+.modal-dialog .card-title {
+    font-size: 3.2rem;
+    font-weight: 700
+}
+
+.modal-dialog .card-text {
+    font-size: 1.6rem;
+    font-weight: 400
+}
+
+.modal-dialog .card-body {
+    text-align: left
+}
+
+.modal-dialog .card-body a {
+    font-size: 2rem;
+    padding: .5rem 3.75rem !important;
+    border: none !important;
+    background-color: #007bff !important;
+    color: #fff !important;
+    border-radius: .5rem !important;
+    transition: .3s
+}
+
+.modal-dialog .card-body a:hover {
+    background-color: #0069d9 !important
+}
+
+@media screen and (min-width:1400px) {
+    .ma-container {
+        max-width: 80%
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #displaynewphoto {
+        height: 30rem;
+        margin: 2rem 0
+    }
+
+    #cbutton,
+    .form-control {
+        margin: 1rem
+    }
+
+    #otpinput,
+    .ar #otpinput {
+        flex-direction: row
+    }
+
+    #otpbutton,
+    .ar #otpbutton {
+        display: block;
+        flex-grow: 1;
+        flex-wrap: wrap
+    }
+
+    form {
+        flex-direction: column
+    }
+
+    #cbutton {
+        width: 100%
+    }
+
+    #countrycode {
+        width: 35%
+    }
+
+    #OTPdiv {
+        flex-wrap: wrap
+    }
+
+    #otpbutton {
+        margin: 3rem 0
+    }
+}
+
+@media screen and (max-width:992px) {
+    #otpinput {
+        flex-direction: column;
+        align-items: center
+    }
+
+    #OTPdiv {
+        flex-direction: column
+    }
+
+    #otpinput input {
+        margin: 1rem 0
+    }
+}
+
+@media screen and (max-width:768px) {
+    .ar #otpinput {
+        flex-direction: column
+    }
+    #displaynewphoto {
+        overflow: hidden;
+        background: url('images/hero-img-mobile.webp') center/cover no-repeat;
+        border-radius: 1rem;
+        width: 100%;
+        height: 100%
+    }
+    #countrycode {
+        width: 40%
+    }
+
+    #otpbutton {
+        margin: 3rem 0
+    }
+
+    #displaynewphoto {
+        height: 20rem
+    }
+
+    #cbutton,
+    .form-control {
+        margin: 1rem 0
+    }
+
+    #countrycode,
+    #phone {
+        margin: .5rem 0
+    }
+
+    #btn-1 {
+        margin: 2rem 0
+    }
+
+    .dropdown {
+        margin: 0 0 2rem
+    }
+}
+
+@media screen and (max-width:536px) {
+
+    #countrycode,
+    #phone {
+        width: 80% !important
+    }
+}
